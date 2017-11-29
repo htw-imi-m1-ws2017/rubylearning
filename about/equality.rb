@@ -19,7 +19,7 @@ describe 'Ruby Comparision Operators' do
 
     let(:array_1) { [1, 2] }
   	let(:array_2) { [1, 2] }
-	it 'arrays with same elements' do
+	  it 'arrays with same elements' do
   		expect(array_1 == array_2).to eq(true)
   	end
   	it 'arrays with same elements' do
